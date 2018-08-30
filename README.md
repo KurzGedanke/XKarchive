@@ -3,7 +3,7 @@
 [![license MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/KurzGedanke/XKarchive/blob/master/LICENSE)
 [![Python Version 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)](https://github.com/KurzGedanke/XKarchive)
 [![Say Thanks!](https://img.shields.io/badge/Donate%20Bitcoin-💵-lightgrey.svg)](https://kurzgedanke.me/donate/)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-🐿️-1EAEDB.svg)](https://saythanks.io/to/KurzGedanke)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-🐿️.svg)](https://saythanks.io/to/KurzGedanke)
 
 XK Archive is a python script to download all or a specific range of [XKCD Comics](https://xkcd.com).
 
@@ -55,19 +55,15 @@ Please enter the latest XKCD:
 5
 Please enter the download path:
 /Users/asgard/Desktop/archiveXKCD
-1
 Download Comic: #1
-2
 Download Comic: #2
-3
 Download Comic: #3
-4
 Download Comic: #4
 ```
 
 ## License XKCD Comics
 
-The XKCD are under a[Creative Commons Attribution-NonCommercial 2.5 License](https://creativecommons.org/licenses/by-nc/2.5/).
+The XKCD are under a [Creative Commons Attribution-NonCommercial 2.5 License](https://creativecommons.org/licenses/by-nc/2.5/).
 
 This means you are free to:
 
