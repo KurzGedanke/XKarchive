@@ -50,6 +50,7 @@ def download(latestXKCD, latestDownloadedXKCD, path):
     '''
     for x in range(latestDownloadedXKCD, latestXKCD):
         print(x)
+        # This try statement is caused by: https://xkcd.com/404/
         try:
             downloadComic(x, path)
         except:
