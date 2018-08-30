@@ -36,7 +36,7 @@ $ source venv/bin/activate
 pip install the requirements
 
 ```bash
-$ pip install -r requieremnts.txt
+$ pip install -r requirements.txt
 ```
 
 ## Usage
