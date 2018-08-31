@@ -7,6 +7,9 @@
 
 XK Archive is a python script to download all or a specific range of [XKCD Comics](https://xkcd.com).
 
+![XKCD Comic 1683 - Digital Data](https://raw.githubusercontent.com/KurzGedanke/xkarchive/master/assets/1683digital_data.png)
+
+
 ## Installation
 
 Git Clone the software to your computer:
