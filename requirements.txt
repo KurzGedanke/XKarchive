@@ -1,3 +1,2 @@
 xkarchive
 requests==2.19.1
-beautifulsoup4==4.6.3
