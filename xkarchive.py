@@ -39,14 +39,17 @@ def download(latestXKCD, latestDownloadedXKCD, path):
     Triggers the loop to download the XKCD comics.
     '''
     for x in range(latestDownloadedXKCD, latestXKCD):
-        print(x)
         # This try statement is caused by: https://xkcd.com/404/
-        downloadComic(x, path)
+        try:
+            downloadComic(x, path)
+        except:
+            print('An error occured:')
+            pass
 
 def main():
     latestDownloadedXKCD = int(input('Enter the latest XKCD you downloaded. If you do not have any XKCD, please enter 1. \n'))
     latestXKCD = int(input('Please enter the latest XKCD: \n')) + 1
-    path = input('Please enter the download path: \n')
+    path = input('Please enter t^he download path: \n')
     downloadPath = getPath(path)
     download(latestXKCD, latestDownloadedXKCD, downloadPath)
 
